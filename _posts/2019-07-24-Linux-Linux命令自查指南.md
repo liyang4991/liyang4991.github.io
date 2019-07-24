@@ -22,14 +22,11 @@ tags:
 	解决方法： export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 
 ### 3. Linux 查看文件大小
-        显示文件大小：du -sh * | sort -n
-	显示磁盘情况：df -h 
-	统计当前目录下文件的个数（不包括目录）：
-	$ ls -l | grep "^-" | wc -l
-	统计当前目录下文件的个数（包括子目录）：
-	$ ls -lR| grep "^-" | wc -l
-	查看某目录下文件夹(目录)的个数（包括子目录）：
-	$ ls -lR | grep "^d" | wc -l
+	显示文件大小：$ du -sh * | sort -n
+	显示磁盘情况：$ df -h 
+	统计当前目录下文件的个数（不包括目录）： $ ls -l | grep "^-" | wc -l
+	统计当前目录下文件的个数（包括子目录）：$ ls -lR| grep "^-" | wc -l
+	查看某目录下文件夹(目录)的个数（包括子目录）：$ ls -lR | grep "^d" | wc -l
 	命令解析：
 	ls -l
 	长列表输出该目录下文件信息(注意这里的文件是指目录、链接、设备文件等)，每一行对应一个文件或目录，ls -lR是列出所有文件，包括子目录。
