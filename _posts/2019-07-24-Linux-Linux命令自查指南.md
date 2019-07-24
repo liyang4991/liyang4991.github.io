@@ -4,7 +4,7 @@ title:      Linux命令自查指南
 subtitle:   自己常用的一些命令
 date:       2019-07-24
 author:     liyang
-header-img: img/007.jpg
+header-img: img/bg_007.jpg
 catalog: true
 tags:
     - Linux
@@ -134,39 +134,45 @@ Vim会跳转到第一个匹配。 按下 n 查找下一个，按下 N 查找上�
 相当于把原目标文件夹复制一份到 目标文件夹
 
 	ln -s 源文件 目标文件。
-	有创建就有删除
+有创建就有删除
+
 	rm -rf symbolic_name 注意不是rm -rf symbolic_name/
 
-	来自 <https://www.cnblogs.com/xiaochaohuashengmi/archive/2011/10/05/2199534.html> 
+来自 <https://www.cnblogs.com/xiaochaohuashengmi/archive/2011/10/05/2199534.html> 
 
 	
 ### 20. jupyter中添加conda虚拟环境
-首先安装ipykernel 
+
+#### 首先安装ipykernel 
 在terminal下执行命令行：
 
 	conda install ipykernel
-在虚拟环境下创建kernel文件 
+	
+##### 在虚拟环境下创建kernel文件 
 在terminal下执行命令行：
 
 	conda install -n 环境名称 ipykernel 
 比如我的虚拟环境叫python27（后面举例都默认这个虚拟环境），那么我的就是：conda install -n python27 ipykernel
 
-激活conda环境 
-在terminal下执行命令行： 
+##### 激活conda环境 
+在terminal下执行命令行：
+
 windows版本:source activate 环境名称 我的命令是：source activate python27 
 linux版本:source activate 环境名称我的命令是：activate python27
 
-将环境写入notebook的kernel中 
+##### 将环境写入notebook的kernel中 
 
 	python -m ipykernel install --user --name 环境名称 --display-name "在jupyter中显示的环境名称" 
 这里引号里面的名称自己可以随便起，用于在jupyter里面做标识，这里我仍然在jupyter里面叫python27，所以我的命令是：
 
 	python -m ipykernel install --user --name python27 --display-name "python27"
-打开notebook服务器 
-在terminal下执行命令行
-	jupyter notebook
 
-      来自 <https://blog.csdn.net/u014665013/article/details/81084604> 
+##### 打开notebook服务器 
+在terminal下执行命令行
+
+	jupyter notebook
+	
+来自 <https://blog.csdn.net/u014665013/article/details/81084604> 
 
 ### 21. conda安装 opencv3
 	conda install -c https://conda.binstar.org/menpo opencv3
