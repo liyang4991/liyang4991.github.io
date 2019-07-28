@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: True  #是否开启Gitalk评论
-  clientID: d05d1f075c887d68e4ea                            #生成的clientID
-  clientSecret: 552c9fbaa3e8637f3499946faa91b3b605a7ceeb    #生成的clientSecret
+  clientID: 656792106eeb91c9d458                            #生成的clientID
+  clientSecret: d2bdbb8a4e15fdc343ca03987ea31520f1b3e520    #生成的clientSecret
   repo: DancingChild.github.io    #仓库名称
   owner: DancingChild    #github用户名
   admin: DancingChild
