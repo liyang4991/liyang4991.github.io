@@ -3,7 +3,7 @@ title: LY Blog
 SEOTitle: 李洋的博客 | LY Blog
 header-img: img/post-bg-Yosemite-Color-Block.png
 email: isliyang@mail.bnu.edu.cn
-description: "Every failure is leading towards success."
+description: "您好，我正期待着您的到来呢！"
 keyword: "LY, LY Blog"
 url: "http://DancingChild.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -20,7 +20,7 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 RSS: false
 weibo_username:      /u/2352005481?is_all=1
 # zhihu_username:     qiubaiying
-# github_username:    qiubaiying
+github_username:    DancingChild
 # facebook_username:  baiying.qiu.7
 # jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
