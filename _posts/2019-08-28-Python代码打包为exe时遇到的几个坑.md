@@ -4,7 +4,7 @@ title:      Python代码打包为exe时遇到的几个坑
 subtitle:   pyinstaller使用指南
 date:       2019-08-28
 author:     liyang
-header-img: img/aircraft.jpg
+header-img: img/the-whale.png
 catalog: true
 tags:
     - 打包exe
