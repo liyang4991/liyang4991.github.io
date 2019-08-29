@@ -80,7 +80,7 @@ ModuleNotFoundError: No module named 'fiona._shim'
 from fiona import _shim, schema
 ```
 
-![](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1566997909942.png)
+![](https://i.loli.net/2019/08/28/f2iERLFnWUD4jxI.jpg)
 
 参考自：https://github.com/pyinstaller/pyinstaller/issues/4277
 
@@ -100,7 +100,7 @@ StopIteration  Error
 import geopandas.datasets
 ~~~
 
-![1566998039917](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\1566998039917.png)
+![](https://i.loli.net/2019/08/29/DmMT7aiYHlXe91y.jpg)
 
 https://stackoverflow.com/questions/51662773/cannot-import-geopandas-with-pyinstaller-executable-despite-running-fine-in-th
 
