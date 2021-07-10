@@ -175,4 +175,7 @@ linux版本:source activate 环境名称我的命令是：activate python27
 来自 <https://blog.csdn.net/u014665013/article/details/81084604> 
 
 ### 21. conda安装 opencv3
-	conda install -c https://conda.binstar.org/menpo opencv3
+	conda install --channel https://conda.anaconda.org/menpo opencv3
+	
+### 22.数组的行列 宽高
+（numpy）image.shape 返回值为：rows, cols, 是行 列，是高 宽，是h w, 是y x
