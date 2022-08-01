@@ -7,9 +7,8 @@ author:     liyang
 header-img: img/the-whale.png
 catalog: true
 tags:
-    - 打包exe
-    - pyinstaller
-    - geopandas
+    - Python
+    - 编程
 ---
 
 ## Python代码打包为exe时遇到的几个坑
