@@ -1,5 +1,3 @@
-# 批量执行GEE导出任务
-
 ---
 layout:     post
 title:      GEE 任务批量导出
@@ -9,10 +7,10 @@ author:     liyang
 header-img: img/Rio2.png
 catalog: true
 tags:
-    - Pytorch
-    - python
-    - 数据读取
+    - GEE
 ---
+
+# 批量执行GEE导出任务
 
 / ** 
 

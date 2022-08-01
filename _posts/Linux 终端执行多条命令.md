@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      Linux 终端执行多条命令
+subtitle:   终端执行多条命令
+date:       2022-08-01
+author:     liyang
+header-img: img/bg_007.jpg
+catalog: true
+tags:
+    - Linux
+    - 终端
+---
+
 # Linux 终端执行多条命令
 
 （1）在每个命令之间用；（分号）隔开。

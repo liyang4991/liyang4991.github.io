@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      mmdetection 踩坑日记
+subtitle:   mmdetection 训练自己的数据
+date:       2022-08-01
+author:     liyang
+header-img: img/bg_007.jpg
+catalog: true
+tags:
+    - mmdetection
+    - 目标检测
+---
+
 ## mmdetection 踩坑日记
 
 1. 运行验证代码： python tools/voc_eval.py result.pkl ./configs/cascade_rcnn_r50_fpn_1x.py
